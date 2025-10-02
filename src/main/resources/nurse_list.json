@@ -1,0 +1,20 @@
+
+{
+  "nurse_list": [
+    {
+		"name": "Mario",
+		"user": "mariouser",
+		"pw": "pw1234"
+    },
+    {
+		"name": "Marvin",
+		  "user": "marvinuser",
+		  "pw": "pw1234"
+    },
+    {
+		"name": "Rodrigo",
+		  "user": "rodrigouser",
+		  "pw": "pw1234"
+    }
+  ]
+}
