@@ -1,5 +1,6 @@
 package com.example.login_nurse;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Nurse {
 
 	String name;
+	String lastname;
 	String user;
 	String pw;
 	
@@ -14,8 +16,9 @@ public class Nurse {
 		
 	}
 	
-	public Nurse(String name, String user, String pw) {
+	public Nurse(String name, String lastname, String user, String pw) {
 		this.name = name;
+		this.lastname = lastname;
 		this.user = user;
 		this.pw = pw;
 	}
@@ -42,6 +45,14 @@ public class Nurse {
 
 	public void setPw(String pw) {
 		this.pw = pw;
+	}
+
+	public String getLastname() {
+		return lastname;
+	}
+
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
 	}
 	
 	
